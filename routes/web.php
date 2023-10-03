@@ -8,6 +8,7 @@ use App\Http\Controllers\Dashboard\RoleController;
 use App\Http\Controllers\Dashboard\SettingController;
 use App\Http\Controllers\Dashboard\UserController;
 use App\Http\Controllers\Dashboard\TrafficsController;
+use App\Http\Controllers\EntryController;
 use App\Models\Language;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
@@ -84,5 +85,9 @@ Route::middleware(['splade'])->group(function () {
             Route::post('/{plugin}/deactivate',[PluginController::class,'deactivate'])->name('deactivate');
             Route::post('/{plugin}/delete',[PluginController::class,'delete'])->name('delete');
         });
+        Route::prefix('entrys')->name('entrys.')->group(function(){
+            Route::resource('/entrys',EntryController::class);
+        });
+
     });
 });

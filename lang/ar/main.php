@@ -53,7 +53,9 @@ return [
     'home' => 'الصفحة الرئيسية',
     'icon' => 'الأيقونة',
     'id' => 'المعرف',
-    'if_you_have_a_plugin_in_a_.zip_format,_you_may_install_or_update_it_by_uploading_it_here' => 'إذا كان لديك مكون اضافي بتنسيق .zip، يمكنك تثبيته أو تحديثه عن طريق تحميله هنا.',
+    'if_you_have_a_plugin_in_a_' => [
+        'zip_format,_you_may_install_or_update_it_by_uploading_it_here' => 'إذا كان لديك مكون اضافي بتنسيق .zip، يمكنك تثبيته أو تحديثه عن طريق تحميله هنا.',
+    ],
     'install_now' => 'تثبيت الآن',
     'ip' => 'عنوان IP',
     'joined' => 'انضم',
@@ -122,7 +124,9 @@ return [
     'confirm' => 'تأكيد',
     'cancel' => 'إلغاء',
     'this_field_is_required' => 'هذا الحقل مطلوب',
-    'there_are_no_items_to_show.' => 'لا توجد عناصر لعرضها',
+    'there_are_no_items_to_show' => [
+        '' => 'لا توجد عناصر لعرضها',
+    ],
     'export_results' => 'تصدير النتائج',
     'reset' => 'إعادة تعيين',
     'remove_search' => 'إزالة البحث',

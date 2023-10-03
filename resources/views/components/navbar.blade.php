@@ -1,16 +1,16 @@
 <nav>
     <ul class="flex justify-end max-w-7xl mx-auto py-4 space-x-4 rtl:space-x-reverse">
         {{-- Dark/Light Toggle --}}
-        <li>
-            <div class="px-3.5 py-2 text-sm font-medium text-gray-700 dark:text-gray-200 rounded-full inline-flex justify-center items-center gap-2 hover:bg-indigo-100 dark:hover:bg-indigo-400/90 dark:hover:text-white border-2 hover:border-indigo-600 transition-colors group border-gray-400 dark:border-gray-400 dark:hover:border-indigo-700">
-                <a href="javascript:;"  class="dark:hidden block dark-mode group flex items-center" data-theme-click-value="dark">
-                    <i class="fa-regular fa-sun text-sm"></i>
-                </a>
-                <a href="javascript:;"  class="dark:block hidden dark-mode group flex items-center" data-theme-click-value="light">
-                    <i class="fa-regular fa-moon text-sm"></i>
-                </a>
-            </div>
-        </li>
+{{--        <li>--}}
+{{--            <div class="px-3.5 py-2 text-sm font-medium text-gray-700 dark:text-gray-200 rounded-full inline-flex justify-center items-center gap-2 hover:bg-indigo-100 dark:hover:bg-indigo-400/90 dark:hover:text-white border-2 hover:border-indigo-600 transition-colors group border-gray-400 dark:border-gray-400 dark:hover:border-indigo-700">--}}
+{{--                <a href="javascript:;"  class="dark:hidden block dark-mode group flex items-center" data-theme-click-value="dark">--}}
+{{--                    <i class="fa-regular fa-sun text-sm"></i>--}}
+{{--                </a>--}}
+{{--                <a href="javascript:;"  class="dark:block hidden dark-mode group flex items-center" data-theme-click-value="light">--}}
+{{--                    <i class="fa-regular fa-moon text-sm"></i>--}}
+{{--                </a>--}}
+{{--            </div>--}}
+{{--        </li>--}}
         {{-- Languages Switch --}}
         <li class="relative flex items-center">
             <x-splade-dropdown class="w-full">
@@ -37,7 +37,7 @@
                         </x-dropdown-link>
                     @endforeach
                 </div>
-            </x-splade-dropdown>        
+            </x-splade-dropdown>
         </li>
         {{-- User Profile --}}
         <li class="relative flex items-center">

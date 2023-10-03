@@ -39,11 +39,16 @@ class AppServiceProvider extends ServiceProvider
         Config::set('app.locale', getSetting('website_language'));
 
         $timezone = getSetting('timezone');
-    
+
         if (in_array($timezone, timezone_identifiers_list())) {
             Config::set('app.timezone', $timezone);
         } else {
             Config::set('app.timezone', 'UTC');
+        }
+
+        if ($this->app->environment('local')) {
+            $this->app->register(\Laravel\Telescope\TelescopeServiceProvider::class);
+            $this->app->register(TelescopeServiceProvider::class);
         }
     }
 }

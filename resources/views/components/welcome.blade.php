@@ -1,9 +1,9 @@
 <div class="p-6 lg:p-8">
     <h1 class="text-2xl font-medium text-gray-900 dark:text-gray-300">
-        Welcome to your SpladePanel!
+        Bienvenido a nuestro Sistema de Administración de Vehículos!
     </h1>
 
     <p class="mt-6 text-gray-500 dark:text-gray-400 leading-relaxed">
-        Introducing SpladePanel: Your gateway to a streamlined dashboard creation experience. This user-friendly Arabic dashboard boasts essential settings, an appealing layout, and leverages Laravel Splade's prowess. Effortlessly construct fast Single Page Applications (SPAs) using standard Blade templates, enriched by Vue 3 components. Unveil the art of efficient dashboard design with SpladePanel.
+        Nuestro sistema de administración de vehículos en el parqueadero es la solución perfecta para gestionar eficazmente los vehículos en su parqueadero. Con características avanzadas como seguimiento en tiempo real, notificaciones y generación de informes, simplificamos la gestión de vehículos y garantizamos una experiencia sin problemas para usted y sus clientes. ¡Confíe en nosotros para llevar la administración de su parqueadero al siguiente nivel!
     </p>
 </div>
